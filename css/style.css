@@ -1,0 +1,24 @@
+/*
+text colour #c6c6c6 (light grey)
+form background color #f4f4f4
+button colour #93d02b
+-------------------------------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+/*GENERAL STYLES*/
+
+body{
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-position: center;*/
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  color: #c6c6c6;
+}

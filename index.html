@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebDev Challenge - Exercise 1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="container">
+        <header>
+           <h1>Masteralb</h1>
+            <img src="img/logo-top-trans.png" alt="masteralb logo">
+        </header>
+         <h2>Register Form</h2>
+        <div class="form-shadow">
+                <form>
+                    <div class="input-group">
+                        <label for="user">
+                            <img src="img/head.png" alt="username">
+                        </label>
+                        <input class="form-control" type="text" id="user" placeholder="Username">
+                    </div>
+                    <div class="input-group">
+                        <label for="pass">
+                            <img src="img/password.png" alt="password">
+                        </label>
+                        <input class="form-control" type="text" id="pass" placeholder="Password">
+                    </div>
+                    <div class="input-group">
+                        <label for="pass-confirm">
+                            <img src="img/password.png" alt="password-confirm">
+                        </label>
+                        <input class="form-control" type="text" id="pass-confirm" placeholder="Confirm Password">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">
+                            <img src="img/email.png" alt="email">
+                        </label>
+                        <input class="form-control" type="text" id="email" placeholder="Email">
+                    </div>
+                    <div class="input-group">
+                        <label for="location">
+                            <img src="img/location.png" alt="location">
+                        </label>
+                        <select class="select-location" name="dropdown" id="location">
+                        <option selected>Your location</option>
+                        <option value="poland">Poland</option>
+                        <option value="italy">Italy</option>
+                        <option value="usa">United States</option>
+                        <option value="france">France</option>
+                        </select>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="termofuse">
+                        <label for="termofuse"><span>I have read and accept the terms of use.</span></label>
+                    </div>
+                    <div class="button">
+                        <button type="submit"><span>Sign Up</span></button>
+                    </div>
+                </form>
+        </div>
+    </div>
+</body>
+</html>
